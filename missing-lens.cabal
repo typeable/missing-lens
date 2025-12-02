@@ -10,11 +10,11 @@ library
   ghc-options:      -Wall
   exposed-modules:  Control.Lens.Missing
   build-depends:
-    , base
+    , base            >=4.9
     , bytestring
-    , email-validate
+    , email-validate  >=1.0
     , lens
-    , network-uri
+    , network-uri >=2.6
     , scientific
     , text
     , time
